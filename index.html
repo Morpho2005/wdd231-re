@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>WDD 231 - Dynamic Web Fundamentals - Josef Winters</title>
+        <meta name="description" content="WDD 231 - Dynamic Web Fundamentals, Josef Winters, information on author">
+        <meta name="author" content="Josef Winters">
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/course.js" defer></script>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/small.css">
+    </head>
+    <body>
+        <header>
+            <section>
+                <span><img src="images/profile.webp" alt="It's me">Josef T. Winters</span>
+                <a id="menu" href="#"></a>
+            </section>
+            <nav>
+                <ul class="navigation">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#chamber">Chamber</a></li>
+                    <li><a href="#project">GitHub Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="grid">
+            <h1>Home</h1>
+            <section class="card">
+                <h2>Clovis, New Mexico</h2>
+                <img src="images/flag.png" alt="The New Mexico Flag">
+                <p>New Mexico's flag</p>
+            </section>
+            <section class="card">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="spread card courses">
+                <h2>Web and Computer Programming Certificate</h2>
+                <ul>
+                    <a class="filter" href="#All" id="all">All</a>
+                    <a class="filter" href="#CSE" id="cse">CSE</a>
+                    <a class="filter" href="#WDD" id="wdd">WDD</a>
+                </ul>
+                <section id="courseList" class="spread courses"></section>
+            </section>
+        </main>
+        <footer>
+            <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>
+            <p>last updated <span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>
