@@ -128,6 +128,10 @@ figure {
     grid-template-columns: 1fr;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .company {
     width: 15rem;
     border-width: .15rem;
@@ -140,6 +144,23 @@ figure {
 .company p{
     border-style: none;
     margin: 1px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.members h3 {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .grid {
@@ -184,6 +205,17 @@ figure {
     margin: 10px;
     border: 2px solid black;
 }
+
+.membercard {
+    width: 90%;
+    margin: 10px 0;
+    border-width: .15rem;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    justify-items: center;
+}
+
 
 .card h1, .card h2, .card h3{
     background-color: #3434ad;
@@ -315,3 +347,15 @@ li.active a {
 #menu.show::before{
     content: "X";
 }
+
+.hero {
+    display: block;
+    position: relative;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}  
