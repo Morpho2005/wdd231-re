@@ -1,0 +1,52 @@
+:root{
+    --main-color: #000000;
+    --header-color: #00FF00;
+    --text-color: #ffffff;
+    --second-color: #003013;
+    --header-text: 'Shadows Into Light Two';
+    --body-text: 'Roboto';
+}
+
+body {
+    background-color: var(--second-color);
+    margin: 0;
+}
+
+h1 {
+    color: var(--header-color);
+}
+
+header{
+    font-family: var(--header-text), serif;
+    display: grid;
+    color: var(--header-color);
+    background-color: var(--main-color);
+    width: 100%;
+    min-height: 4rem;
+}
+
+section {
+    color: var(--text-color);
+    background-color: var(--main-color);
+    max-height: 13rem;
+}
+
+img{
+    max-height: 10rem;
+}
+
+main{
+    max-width: 100%  ;
+    background-color: var(--second-color);
+    margin: 0;
+}
+
+footer {
+    max-height: 10rem;
+    color: var(--header-color);
+    background-color: var(--main-color);
+}
+
+footer p{
+    text-align: center
+}
