@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 
 
     section {
@@ -7,6 +7,14 @@
 
     .grid {
         display: block;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .members {
+        grid-template-columns: 1fr;
     }
 
     .courses {
@@ -25,5 +33,22 @@
         align-items: center;
         justify-content: space-around;
         list-style: none;
+    }
+
+    .joingrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location {
+        display: block;
+    }
+
+    .location h2{
+        grid-column-start: span 1;
+    }
+
+    .location figure img:hover {
+        box-shadow: none;
     }
 }

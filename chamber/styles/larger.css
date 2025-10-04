@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1025px) {
     body{
         max-width: 100%;
     }
@@ -28,5 +28,9 @@
 
     #menu{
         display:none;
+    }
+
+    .discover{
+        grid-template-columns: 1fr 1fr;
     }
 }
